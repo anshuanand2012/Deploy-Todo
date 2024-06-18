@@ -1,0 +1,25 @@
+/* Change the color of navbar items to red on hover */
+.navbar-brand:hover,
+.nav-link:hover {
+  color: blue !important;
+  
+   /* Change this to your desired hover color */
+}
+
+/* Additional styles */
+.user-png {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.btn-nav {
+    background-color: red;
+    border-radius: 5px;
+    color: white !important;;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}

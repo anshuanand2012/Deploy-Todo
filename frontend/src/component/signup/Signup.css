@@ -1,0 +1,55 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container2 form {
+    max-width: 400px;
+    padding: 105px;
+    border: 2px solid #ccc;
+    border-radius: 27px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  .button2 {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+   
+    border-radius: 3px;
+  }
+  .button2 {
+    background-color: red; /* Initial color of the button */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .button2:hover {
+    animation: multicolor 1s infinite; /* Apply the animation on hover */
+    background-color: #f00; /* Set a specific color on hover */
+  }
+  
+  @keyframes multicolor {
+    0% { background-color: red; } /* Start with red */
+    25% { background-color: green; } /* Change to green at 25% of the animation */
+    50% { background-color: blue; } /* Change to blue at 50% */
+    7% { background-color: yellow; } /* Change to yellow at 75% */
+    100% { background-color: red; } /* Back to red at 100% (end of animation) */
+  }
